@@ -1,0 +1,103 @@
+[
+    {
+        "title": "Submition form",
+        "field": [
+            {
+                "name": "name",
+                "type": "text",
+                "placeholder": "enter yor name",
+                "mandatory": "yes",
+                "value": ""
+            },
+            {
+                "name": "email",
+                "type": "text",
+                "placeholder": "enter yor email",
+                "mandatory": "yes",
+                "value": ""
+            },
+            {
+                "name": "age",
+                "type": "text",
+                "placeholder": "enter yor age",
+                "mandatory": "yes",
+                "value": ""
+            },
+           
+            {
+                "name": "Would you recommend our site to a friend?",
+                "type": "radio",
+                "value": "checked"
+            }
+        ],
+        "options":[
+            {
+                "optionlabel":"Student"
+            },
+            {
+                "optionlabel":"UX/UI designer"
+            },
+            {
+                "optionlabel":"Backend Developer"
+            },
+            {
+                "option-label":"Frontend Developer"
+            }
+        ],
+        "recommend":[
+            {
+                "title":"Would you recomend our site to a friend?",
+                "type":"radio",
+                "value":[
+                    {
+                        "val":"yes"
+                    },
+                    {
+                        "val":"No"
+                    },
+                    {
+                        "val":"maybe"
+                    }
+                ]
+            }
+        ],
+        "language":[
+            {
+                "title":"Which languages & freameworks you know?",
+                "type":"radio",
+                "value":[
+                    {
+                        "val":"C"
+                    },
+                    {
+                        "val":"C++"
+                    },
+                    {
+                        "val":"Python"
+                    },
+                    {
+                        "val":"Javascript"
+                    },
+                    {
+                        "val":"React"
+                    },
+                    {
+                        "val":"Angular"
+                    },   
+                    {
+                        "val":"Vue"
+                    },
+                    {
+                        "val":"Django"
+                    },
+                    {
+                        "val":"Tailwind CSS"
+                    }
+                ]
+
+            }
+        ]
+        
+        
+      }
+]
